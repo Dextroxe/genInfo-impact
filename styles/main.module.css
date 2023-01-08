@@ -1,0 +1,17 @@
+.container{
+    
+    margin: auto;
+    margin-top: 3%;
+    width: 80%;
+    height: 100%;
+    /* background-color: rgb(181, 181, 116); */
+}
+
+.infoCards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.cards{
+    margin: auto;
+}

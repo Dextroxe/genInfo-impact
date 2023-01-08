@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #3fd74b;
+    height: 8rem;
+}
+/* .navbar-brand:hover, .navbar-brand:focus {
+    color: whitesmoke;
+} */
+
+.Navbar.Brand{
+    color: aliceblue;
+}
+.Container{
+    font-size:xx-small;
+    color:azure;
+}
+
+#basic-navbar-nav{
+    color: aliceblue;
+}
+
+/* .Nav.Link{
+    text-decoration: none;
+  } */

@@ -1,0 +1,475 @@
+{
+"character": [
+        {
+            "id": 0,
+            "element": "Cryo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayaka.png",
+            "name": "kamisato_ayaka",
+            "rarity": 5
+        },
+        {
+            "id": 1,
+            "element": "Anemo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qin.png",
+            "name": "Jean",
+            "rarity": 5
+        },
+        {
+            "id": 2,
+            "element": "Anemo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
+            "name": "Traveler_anemo",
+            "rarity": 5
+        },
+        {
+            "id": 3,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Lisa.png",
+            "name": "Lisa",
+            "rarity": 4
+        },
+        {
+            "id": 4,
+            "element": "Anemo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerGirl.png",
+            "name": "Traveler_anemo",
+            "rarity": 5
+        },
+        {
+            "id": 5,
+            "element": "Hydro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Barbara.png",
+            "name": "Barbara",
+            "rarity": 4
+        },
+        {
+            "id": 6,
+            "element": "Cryo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kaeya.png",
+            "name": "Kaeya",
+            "rarity": 4
+        },
+        {
+            "id": 7,
+            "element": "Pyro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diluc.png",
+            "name": "Diluc",
+            "rarity": 5
+        },
+        {
+            "id": 8,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Razor.png",
+            "name": "Razor",
+            "rarity": 4
+        },
+        {
+            "id": 9,
+            "element": "Pyro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ambor.png",
+            "name": "Amber",
+            "rarity": 4
+        },
+        {
+            "id": 10,
+            "element": "Anemo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Venti.png",
+            "name": "Venti",
+            "rarity": 5
+        },
+        {
+            "id": 11,
+            "element": "Pyro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiangling.png",
+            "name": "xiangling",
+            "rarity": 4
+        },
+        {
+            "id": 12,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Beidou.png",
+            "name": "Beidou",
+            "rarity": 4
+        },
+        {
+            "id": 13,
+            "element": "Hydro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xingqiu.png",
+            "name": "Xingqiu",
+            "rarity": 4
+        },
+        {
+            "id": 14,
+            "element": "Anemo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xiao.png",
+            "name": "Xiao",
+            "rarity": 5
+        },
+        {
+            "id": 15,
+            "element": "Geo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ningguang.png",
+            "name": "Ningguang",
+            "rarity": 4
+        },
+        {
+            "id": 16,
+            "element": "Pyro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Klee.png",
+            "name": "Klee",
+            "rarity": 5
+        },
+        {
+            "id": 17,
+            "element": "Geo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Zhongli.png",
+            "name": "Zhongli",
+            "rarity": 5
+        },
+        {
+            "id": 18,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Fischl.png",
+            "name": "Fischl",
+            "rarity": 4
+        },
+        {
+            "id": 19,
+            "element": "Pyro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Bennett.png",
+            "name": "Bennett",
+            "rarity": 4
+        },
+        {
+            "id": 20,
+            "element": "Hydro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tartaglia.png",
+            "name": "Tartaglia",
+            "rarity": 5
+        },
+        {
+            "id": 21,
+            "element": "Geo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Noel.png",
+            "name": "Noelle",
+            "rarity": 4
+        },
+        {
+            "id": 22,
+            "element": "Cryo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Qiqi.png",
+            "name": "Qiqi",
+            "rarity": 5
+        },
+        {
+            "id": 23,
+            "element": "Cryo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Chongyun.png",
+            "name": "Chongyun",
+            "rarity": 4
+        },
+        {
+            "id": 24,
+            "element": "Cryo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ganyu.png",
+            "name": "Ganyu",
+            "rarity": 5
+        },
+        {
+            "id": 25,
+            "element": "Geo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Albedo.png",
+            "name": "Albedo",
+            "rarity": 5
+        },
+        {
+            "id": 26,
+            "element": "Cryo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Diona.png",
+            "name": "Diona",
+            "rarity": 4
+        },
+        {
+            "id": 27,
+            "element": "Hydro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Mona.png",
+            "name": "Mona",
+            "rarity": 5
+        },
+        {
+            "id": 28,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Keqing.png",
+            "name": "Keqing",
+            "rarity": 5
+        },
+        {
+            "id": 29,
+            "element": "Anemo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sucrose.png",
+            "name": "Sucrose",
+            "rarity": 4
+        },
+        {
+            "id": 30,
+            "element": "Pyro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Xinyan.png",
+            "name": "Xinyan",
+            "rarity": 4
+        },
+        {
+            "id": 31,
+            "element": "Cryo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Rosaria.png",
+            "name": "Rosaria",
+            "rarity": 4
+        },
+        {
+            "id": 32,
+            "element": "Pyro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Hutao.png",
+            "name": "Hu_tao",
+            "rarity": 5
+        },
+        {
+            "id": 33,
+            "element": "Anemo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kazuha.png",
+            "name": "kaedehara_kazuha",
+            "rarity": 5
+        },
+        {
+            "id": 34,
+            "element": "Pyro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Feiyan.png",
+            "name": "Yanfei",
+            "rarity": 4
+        },
+        {
+            "id": 35,
+            "element": "Pyro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yoimiya.png",
+            "name": "Yoimiya",
+            "rarity": 5
+        },
+        {
+            "id": 36,
+            "element": "Pyro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tohma.png",
+            "name": "Thoma",
+            "rarity": 4
+        },
+        {
+            "id": 37,
+            "element": "Cryo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Eula.png",
+            "name": "Eula",
+            "rarity": 5
+        },
+        {
+            "id": 38,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shougun.png",
+            "name": "raiden_shogun",
+            "rarity": 5
+        },
+        {
+            "id": 39,
+            "element": "Anemo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sayu.png",
+            "name": "Sayu",
+            "rarity": 4
+        },
+        {
+            "id": 40,
+            "element": "Hydro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Kokomi.png",
+            "name": "sangonomiya_kokomi",
+            "rarity": 5
+        },
+        {
+            "id": 41,
+            "element": "Geo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Gorou.png",
+            "name": "Gorou",
+            "rarity": 4
+        },
+        {
+            "id": 42,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Sara.png",
+            "name": "Kujou_sara",
+            "rarity": 4
+        },
+        {
+            "id": 43,
+            "element": "Geo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Itto.png",
+            "name": "Arataki_Itto",
+            "rarity": 5
+        },
+        {
+            "id": 44,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yae.png",
+            "name": "Yae_Miko",
+            "rarity": 5
+        },
+        {
+            "id": 45,
+            "element": "Hydro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yelan.png",
+            "name": "Yelan",
+            "rarity": 5
+        },
+        {
+            "id": 46,
+            "element": "Cryo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Aloy.png",
+            "name": "Aloy",
+            "rarity": 5
+        },
+        {
+            "id": 47,
+            "element": "Cryo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shenhe.png",
+            "name": "Shenhe",
+            "rarity": 5
+        },
+        {
+            "id": 48,
+            "element": "Geo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Yunjin.png",
+            "name": "Yun_Jin",
+            "rarity": 4
+        },
+        {
+            "id": 49,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Shinobu.png",
+            "name": "Kuki_Shinobu",
+            "rarity": 4
+        },
+        {
+            "id": 50,
+            "element": "Hydro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Ayato.png",
+            "name": "Kamisato_Ayato",
+            "rarity": 5
+        },
+        {
+            "id": 51,
+            "element": "Geo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
+            "name": "Traveler_Geo",
+            "rarity": 5
+        },
+        {
+            "id": 52,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
+            "name": "Traveler_Electro",
+            "rarity": 5
+        },
+        {
+            "id": 53,
+            "element": "Dendro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
+            "name": "Traveler_Dendro",
+            "rarity": 5
+        },
+        {
+            "id": 54,
+            "element": "Geo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerGirl.png",
+            "name": "Traveler_Geo",
+            "rarity": 5
+        },
+        {
+            "id": 55,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerGirl.png",
+            "name": "Traveler_electro",
+            "rarity": 5
+        },
+        {
+            "id": 56,
+            "element": "Dendro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerGirl.png",
+            "name": "Traveler_dendro",
+            "rarity": 5
+        },
+        {
+            "id": 54,
+            "element": "Anemo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Heizo.png",
+            "name": "Shikanoin_Heizou",
+            "rarity": 4
+        },
+        {
+            "id": 55,
+            "element": "Dendro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Collei.png",
+            "name": "Collei",
+            "rarity": 4
+        },
+        {
+            "id": 56,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Dori.png",
+            "name": "Dori",
+            "rarity": 4
+        },
+        {
+            "id": 57,
+            "element": "Dendro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Tighnari.png",
+            "name": "Tighnari",
+            "rarity": 5
+        },
+        {
+            "id": 58,
+            "element": "Hydro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nilou.png",
+            "name": "Nilou",
+            "rarity": 5
+        },
+        {
+            "id": 59,
+            "element": "Electro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Cyno.png",
+            "name": "cyno",
+            "rarity": 5
+        },
+        {
+            "id": 60,
+            "element": "Hydro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Candace.png",
+            "name": "Candace",
+            "rarity": 4
+        },{
+            "id": 61,
+            "element": "Cryo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Layla.png",
+            "name": "Layla",
+            "rarity": 4
+    
+        },
+        {
+            "id": 62,
+            "element": "Anemo",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Wanderer.png",
+            "name": "Wanderer",
+            "rarity": 5
+    
+        },
+        {
+            "id":63,
+            "element": "Dendro",
+            "icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_Nahida.png",
+            "name": "Nahida",
+            "rarity": 5
+    
+        }
+    ]
+}

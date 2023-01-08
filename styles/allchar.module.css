@@ -1,0 +1,153 @@
+.containBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* align-items: flex-start; */
+  gap: 1.5rem;
+  margin-top: 5%;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* gap: 5rem; */
+}
+
+.mondstadtBtns,.sumeruBtns,.liyueBtns,.inazumaBtns{
+  padding: 4rem;
+  gap: 5rem;
+
+  /* background-image: url('/images/backgrounds/background.jpg'); */
+}
+
+
+.charactersBox {
+  border: 1px solid white;
+  gap: 1.3rem;
+  width: 70%;
+  border-radius: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.containCard {
+  width: 100%;
+  gap: 1.5rem;
+  column-gap: 0;
+  margin: auto;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  border-radius: 15px;
+  /* box-shadow: 0 8px 8px -4px white; */
+  backdrop-filter: blur(15px);
+}
+
+
+
+
+.headingOnly {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+
+  /* background: #dad7cd; */
+  /* box-shadow: 0 8px 8px -4px white; */
+
+
+
+}
+
+.heading {
+  width: 30%;
+  display: flex;
+  align-self: center;
+  /* align-items: center; */
+  justify-content: center;
+  /* background: #dad7cd; */
+  box-shadow: 0 0 0 -4px white;
+  margin-top: 1rem;
+  position: sticky;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+
+
+.HeaderImg {
+  display: grid;
+
+}
+
+
+.headingOnlyImg {
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* background: #dad7cd; */
+  /* box-shadow: 0 8px 8px -4px white; */
+  border-top: 2px solid white;
+
+
+}
+
+.headingImg {
+  width: 30%;
+  display: flex;
+  align-self: center;
+  /* align-items: center; */
+  justify-content: center;
+  /* background: #dad7cd; */
+
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+
+
+
+
+.elementBox {
+ 
+ display: grid;
+ grid-template-columns: repeat(2,0.95fr);
+ gap: 1rem;
+ margin: auto;
+ padding: 2%;
+
+}
+
+.elemenCharBox{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 1rem;
+ border: 2px solid white;
+ border-radius: 20px;
+ padding: 5%;
+ 
+}
+
+
+
+.button,.mondstadtBtns,.sumeruBtns,.inazumaBtns,.liyueBtns{
+  text-transform:uppercase;
+  font-weight:bolder;
+  font-size:medium;
+  background-color: inherit;
+  border: 2px solid white;
+}
+
+.liyueBtns:hover,.mondstadtBtns:hover, .sumeruBtns:hover,.inazumaBtns:hover{
+  transform: translateX(10px)  scale(1.02,1.02);
+  font-size: x-large;
+  cursor: pointer;
+  /* backdrop-filter: blur(10px); */
+  background-image: brightness(20%);
+  animation: 0.2s ease-in-out;
+}

@@ -1,0 +1,78 @@
+.tcgPage {
+    display: flex;
+    /* align-self: center; */
+    
+    
+}
+
+
+.container {
+    /* margin: auto; */
+    margin: auto;
+    padding-top: 3%;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: row; */
+    gap: 1rem;
+
+
+}
+
+.imgs {
+    width: 15rem;
+
+}
+
+
+.cardBox{
+    /* background-color: rgb(20, 68, 100); */
+    background-color:rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    /* width: auto; */
+    /* width: 60%; */
+    /* width: "60%"; */
+}
+
+.cardBoxItem{
+    display: flex;
+    /* padding: 0; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+   
+    
+}
+.modalGrid1{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat((2,1fr));
+    
+}
+.modalGrid{
+    /* margin: auto; */
+    
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+}
+.modalDesc{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  
+}
+.imgsModal{
+    width: 40%;
+    /* height: auto; */
+}
+.headers{
+    font-size: large;
+}

@@ -1,0 +1,71 @@
+.banner{
+   margin-top: 5rem;
+   margin-bottom: 0;
+    display: grid;
+    z-index: 0;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* width: 100%; */
+    background-image: url("/images/nahida.jpg");
+    height: 50remx;
+    /* background-color: linear-gradient(to right top, #007200, #008000, #38b000, #70e000, #ccff33); */
+    background-position: center;
+     /* filter: blur(2px); */
+   /* -webkit-filter: blur(0.2px);  */
+    /* margin-top: 0; */
+    border-radius: 15px;
+    /* padding-bottom: 5%; */
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+   
+  }
+
+.headerBox{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* position: relative;
+      z-index: 1; */
+      backdrop-filter: blur(5px);
+      border-radius: 15px;
+      /* background-color: #006400; */
+      width: 95%;
+      height: 70%;
+
+      margin: auto;
+      grid-row-start: 1;
+      grid-row-end: 4;
+
+
+  }
+
+  .headerText{
+    display: flex;
+    justify-content: center;
+    /* justify-self: center;  */
+    /* text-justify:distribute; */
+    /* position: relative;*/
+      z-index: 2; 
+    /* position: relative; */
+      grid-row-start: 2;
+      grid-row-end: 3;
+    background-image: linear-gradient(to right, #006400, #215f0c, #2f5917, #375420,
+     #3d4f28, #3d4c2b, #3d482d, #3d4530, #3a432e, #38412c, #353f2b, #333d29);
+    /* backdrop-filter: blur(5px); */
+    
+    -webkit-text-fill-color: transparent;
+    /* backdrop-filter: blur(5px); */
+    width:40%;
+    font-weight: bolder;
+    font-size:5rem;
+    width: auto;
+    margin: auto;
+    /* height: auto; */
+    /* transform: translate(100%, 400%); */
+    -webkit-background-clip: text;
+    
+    
+}

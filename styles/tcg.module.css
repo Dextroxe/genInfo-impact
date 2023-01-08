@@ -1,0 +1,56 @@
+
+.tcgPage{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.container{
+  padding-top: 3%;
+    width: auto;
+    /* margin: auto; */
+    /* margin: auto; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content:center; */
+    /* flex-direction: row; */
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 1rem;
+    
+    
+}
+
+
+.imgs{
+  width: 11rem;
+  
+}
+
+.centerkr{
+  text-align: center;
+  
+}
+.headers{
+  width: 11rem;
+  color: aliceblue;
+  text-align: center;
+  border: 1px;
+  border: bottom 5px;
+  border-color: aliceblue;
+}
+
+.navBar{
+  margin-top: 0%;
+  padding-top: 10%;
+  display: flex;
+  /* position: sticky; */
+  align-self: flex-start;
+  top: 0;
+  justify-content: center;
+  position: relative;
+  /* position: fixed; */
+
+
+}
