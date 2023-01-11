@@ -1,13 +1,19 @@
 
 .tcgPage{
+  padding-top: 3%;
   display: flex;
   justify-content: center;
 
 }
 
+.h1{
+  margin-top: 2%;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
 
+}
 .container{
-  padding-top: 3%;
     width: auto;
     /* margin: auto; */
     /* margin: auto; */
@@ -19,7 +25,9 @@
     grid-template-columns: repeat(6, auto);
     gap: 1rem;
     
-    
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 20px;
 }
 
 

@@ -1,22 +1,12 @@
-import { Navbar, Link, Text, Avatar, Dropdown,useTheme } from "@nextui-org/react";
+import { Navbar, Link, Text, Avatar, Dropdown, useTheme, Image } from "@nextui-org/react";
 import styles from '../styles/navbar.module.css'
 
-{/* <Navbar bg="dark" variant="dark" fixed="top">
-        <Container>
-          <Navbar.Brand href="/">Navbar</Navbar.Brand>
-
-          <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/genshin/">All character</Nav.Link>
-            <Nav.Link href="/tcg">TCG</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar> */}
 
 
 
 function BasicExample() {
   const { isDark } = useTheme();
+
   const collapseItems = [
     "Profile",
     "Dashboard",
@@ -31,8 +21,8 @@ function BasicExample() {
   ];
   return (
     < >
-      <Navbar shouldHideOnScroll isBordered={isDark} variant="sticky" className={styles.navbar} >
-        {/* <Navbar.Toggle showIn="xs" /> */}
+      <Navbar shouldHideOnScroll isBordered={isDark} variant="sticky"  >
+        <Navbar.Toggle showIn="xs" />
         <Navbar.Brand
           css={{
             "@xs": {
@@ -40,24 +30,24 @@ function BasicExample() {
             },
           }}
         >
-       
-          <Text b color="inherit" hideIn="xs">
-            ACME
+
+          <Text b color="inherit" hideIn="xs" h2>
+            <Link href="/" color="inherit">Genshin Impact</Link>
           </Text>
         </Navbar.Brand>
         <Navbar.Content
-          enableCursorHighlight
+          // enableCursorHighlight
           activeColor="warning"
           hideIn="xs"
-          variant="highlight"
+          variant="underline"
           
         >
-          
+
           <Navbar.Link isActive href="/">
-          Home
+            <Image src={"/images/home.png"} />
           </Navbar.Link>
-          <Navbar.Link isActive href="/genshin">Characters</Navbar.Link>
-          <Navbar.Link isActive href="/tcg">Tcg</Navbar.Link>
+          <Navbar.Link isActive  href="/genshin"><Image src={"/images/characters.png"} /></Navbar.Link>
+          <Navbar.Link isActive href="/tcg"><Image src={"/images/tcg.png"} /></Navbar.Link>
         </Navbar.Content>
         <Navbar.Content
           css={{
@@ -75,7 +65,7 @@ function BasicExample() {
                   as="button"
                   color="warning"
                   size="md"
-                  src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+                  src="https://avatars.githubusercontent.com/u/75870763?s=400&u=ed50d2af7b75897cab0464cb4e3b628933f57d12&v=4"
                 />
               </Dropdown.Trigger>
             </Navbar.Item>
@@ -86,31 +76,23 @@ function BasicExample() {
             >
               <Dropdown.Item key="profile" css={{ height: "$18" }}>
                 <Text b color="inherit" css={{ d: "flex" }}>
-                  Signed in as
+                  DExTROx 
                 </Text>
                 <Text b color="inherit" css={{ d: "flex" }}>
-                  zoey@example.com
+                  AR60 | 804202517
                 </Text>
               </Dropdown.Item>
-              <Dropdown.Item key="settings" withDivider>
-                My Settings
+              <Dropdown.Item key="discord"  withDivider>
+                <Link href="https://discord.gg/DAaccVdDt7">Discord</Link>
               </Dropdown.Item>
-              <Dropdown.Item key="team_settings">Team Settings</Dropdown.Item>
-              <Dropdown.Item key="analytics" withDivider>
-                Analytics
-              </Dropdown.Item>
-              <Dropdown.Item key="system">System</Dropdown.Item>
-              <Dropdown.Item key="configurations">Configurations</Dropdown.Item>
-              <Dropdown.Item key="help_and_feedback" withDivider>
-                Help & Feedback
-              </Dropdown.Item>
-              <Dropdown.Item key="logout" withDivider color="error">
-                Log Out
+              <Dropdown.Item key="discord">ScIenCe BoY#8216</Dropdown.Item>
+              <Dropdown.Item key="github"  withDivider>
+                <Link href="https://github.com/Dextroxe">GitHub</Link>
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </Navbar.Content>
-        <Navbar.Collapse disableAnimation>
+        <Navbar.Collapse >
           {collapseItems.map((item, index) => (
             <Navbar.CollapseItem
               key={item}

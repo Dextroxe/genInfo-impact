@@ -5,14 +5,45 @@ import Link from 'next/link';
 import { characters } from '../../json/data/characters'
 import { useState } from 'react';
 
+
+function elementss(ctx) {
+    // const elements = [{ pyro: "#BF3636", hydro: "#599ec4", cryo: "#b9dfe4", dendro: "#4fef67", anemo: "#54dcb4", geo: "#e8c660", Electro: "#ae62c7" }]
+    if (ctx == "pyro") {
+        return ("#BF3636")
+    }
+    if (ctx == "hydro") {
+        return ("#599ec4")
+    }
+    if (ctx == "cryo") {
+        return ("#b9dfe4")
+    }
+    if (ctx == "dendro") {
+        return ("#608a00 ")
+    }
+    if (ctx == "anemo") {
+        return ("#54dcb4")
+    }
+    if (ctx == "geo") {
+        return ("#e8c660")
+    }
+    if (ctx == "electro") {
+        return ("#bf00ff")
+    }
+
+}
+
+
+
+
 function charBox(ctx, region, element) {
+    
     return (
         <>
             <div>
                 <div className={styles.headingOnlyImg}>
-                    <h1 className={styles.headingImg}>{element}</h1>
+                    {/* <h1 className={styles.headingImg}>{element}</h1> */}
                 </div>
-                <div className={styles.elemenCharBox}>
+                <div  style={{backgroundColor:`${elementss(element)}`}} className={styles.elemenCharBox} >
                     {Object.values(ctx).map(ele => {
                         const rare = ele.rarity
                         const background = rare === 5 ? "#dca454" : "#9174a9";
@@ -155,11 +186,11 @@ function BodyOnlyExample() {
 
             <div className={styles.containBox} onClick={mondstadtChars}>
 
-ss
-                <Button css={{backgroundImage: `url(${mondstadtBg})`, color:"Blue"}}  className={styles.mondstadtBtns} onClick={mondstadtChars}>Mondstadt</Button>
-                <Button css={{backgroundImage: `url(${sumeruBg})`}}  className={styles.sumeruBtns} onClick={sumeruChars}>Sumeru</Button>
-                <Button css={{backgroundImage: `url(${inazumaBg})`}}  className={styles.inazumaBtns} onClick={inazumaChars}>Inazuma</Button>
-                <Button css={{backgroundImage: `url(${liyueBg})`}} className={styles.liyueBtns} onClick={liyueChars}>Liyue</Button>
+
+                <Button css={{ backgroundImage: `url(${mondstadtBg})`, color: "Blue" }} className={styles.mondstadtBtns} onClick={mondstadtChars}>Mondstadt</Button>
+                <Button css={{ backgroundImage: `url(${sumeruBg})` }} className={styles.sumeruBtns} onClick={sumeruChars}>Sumeru</Button>
+                <Button css={{ backgroundImage: `url(${inazumaBg})` }} className={styles.inazumaBtns} onClick={inazumaChars}>Inazuma</Button>
+                <Button css={{ backgroundImage: `url(${liyueBg})` }} className={styles.liyueBtns} onClick={liyueChars}>Liyue</Button>
                 {/* </div> */}
             </div>
             <div className={styles.containBox}>

@@ -2,7 +2,7 @@ import tcg from '../../json/data/tcg/en.json'
 import styles from '../../styles/tcg.module.css'
 import { Card, Text, Modal, Button, Grid, Row, Image } from '@nextui-org/react';
 import Link from 'next/link';
-import { useState } from 'react';
+
 
 
 function printCard(ctx) {
@@ -44,8 +44,8 @@ export default function profile() {
 
   return (
     <>
+        <h1 className={styles.h1}>TCG Categories</h1>
       <div className={styles.tcgPage}>
-
         <div className={styles.container}>
           {/* <h1 className={styles.headers} id='character' >Characters</h1> */}
           {tcg.map((cards) => {
