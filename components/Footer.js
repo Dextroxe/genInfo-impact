@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             <footer className={style.footer}>
-                Githhub
+                <h1>GitHub</h1>
                 </footer>
             
         </div>
