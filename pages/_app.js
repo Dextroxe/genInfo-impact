@@ -1,5 +1,4 @@
 import SSRProvider from 'react-bootstrap/SSRProvider';
-import 'bootstrap/dist/css/bootstrap.css';
 import Layout from '../components/Layout'
 import '../styles/globals.css'
 import Footer from '../components/footer'

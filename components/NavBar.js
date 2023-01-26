@@ -44,10 +44,10 @@ function BasicExample() {
         >
 
           <Navbar.Link isActive href="/">
-            <Image src={"/images/home.png"} />
+            <Image src={"/images/home.png"}  alt="..."/>
           </Navbar.Link>
-          <Navbar.Link isActive  href="/genshin"><Image src={"/images/characters.png"} /></Navbar.Link>
-          <Navbar.Link isActive href="/tcg"><Image src={"/images/tcg.png"} /></Navbar.Link>
+          <Navbar.Link isActive  href="/genshin"><Image src={"/images/characters.png"} alt="..." /></Navbar.Link>
+          <Navbar.Link isActive href="/tcg"><Image src={"/images/tcg.png"} alt="..." /></Navbar.Link>
         </Navbar.Content>
         <Navbar.Content
           css={{
